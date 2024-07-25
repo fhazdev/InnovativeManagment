@@ -3,3 +3,7 @@
     max-width: 100px;
     height: auto;
   }
+
+.services-card {
+  border-width: 5px;
+}

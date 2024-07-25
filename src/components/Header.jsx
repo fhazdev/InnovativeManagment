@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <Navbar expand="lg" className="bg-body-tertiary" data-bs-theme="dark">
             <Container>
-                <Navbar.Brand href="#home">Rey's Bookkeeping</Navbar.Brand>
+                <Navbar.Brand href="#home">Innovative Bookkeeping</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">

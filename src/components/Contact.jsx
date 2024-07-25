@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import '/src/assets/styles.css';
+import { Button } from 'react-bootstrap';
 // ./src/images/icons8-email-64.png
 
 const Contact = () => {
@@ -26,7 +27,7 @@ const Contact = () => {
                         </Card>
                     </Col>
                     <Col>
-                    <Card className="h-100">
+                        <Card className="h-100">
                             <div className="d-flex flex-column h-100">
                                 <Card.Img
                                     className="contact-card-img align-self-center mt-3"
@@ -43,8 +44,8 @@ const Contact = () => {
                 </Row>
             </Container>
             <div className="container mt-5">
-                <h1>Have questions?  Send a message.</h1>
-                <div className="row mt-4">
+                <h1 className="text-center">Have questions?  Send a message.</h1>
+                <div className="row mt-4 justify-content-center">
                     <div className="col-md-6">
                         <form>
                             <div className="mb-3">
@@ -59,7 +60,9 @@ const Contact = () => {
                                 <label htmlFor="message" className="form-label">Message</label>
                                 <textarea className="form-control" id="message" rows="5" required></textarea>
                             </div>
-                            <button type="submit" className="btn btn-primary">Send Message</button>
+                            <div className="d-flex justify-content-center">
+                                <Button variant="primary" size="lg">Send Message</Button>
+                            </div>
                         </form>
                     </div>
                 </div>
