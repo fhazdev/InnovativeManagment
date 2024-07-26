@@ -9,7 +9,7 @@ const About = () => {
             <Container className="mt-5">
                 <Row className="mt-4 align-items-center">
                     <Col sm={4}>
-                        <img src="./src/images/business_man.jpg" alt="Rey" className="img-fluid rounded" />
+                        <img src="/images/business_man.jpg" alt="Rey" className="img-fluid rounded" />
                     </Col>
                     <Col sm={8}>
                         <h2>Meet Rey Figueroa</h2>
