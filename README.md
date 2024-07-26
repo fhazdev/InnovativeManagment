@@ -1,8 +1,12 @@
 # ReyBusiness
- Rey's small business
+Innovative Management
 
 Tech Stack
-- vite
-- reactjs
-- javascript
-- bootstrap 5
+- Vite
+- ReactJS
+- React Bootstrap
+- Bootstrap 5
+- react-router-dom
+- Javascript
+- Calendly for appointment scheduling
+- Web3Forms for email form submissions

@@ -1,7 +1,18 @@
-{/* <img className="img-responsive" src="./src/images/trend-6551546_640.png" /> */}
+{/* <img className="img-responsive" src="./src/images/trend-6551546_640.png" /> */ }
 import Button from 'react-bootstrap/Button';
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+    const navigate = useNavigate();
+
+    const handleGetStarted = () => {
+        navigate('/contact');
+    };
+
+    const handleLearnMore = () => {
+        navigate('/services');
+    };
+
     return (
         <div>
             <header className="bg-dark py-5">
@@ -14,8 +25,8 @@ const Home = () => {
                                 <div className="d-grid gap-3 d-sm-flex justify-content-sm-center">
                                     {/* <a className="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
                                     <a className="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a> */}
-                                    <Button className="px-4 me-sm-3" variant="primary" size="lg">Get Started</Button>
-                                    <Button className="px-4" variant="secondary" size="lg">Learn More</Button>
+                                    <Button className="px-4 me-sm-3" variant="primary" size="lg" onClick={handleGetStarted}>Get Started</Button>
+                                    <Button className="px-4" variant="secondary" size="lg" onClick={handleLearnMore}>Learn More</Button>
                                 </div>
                             </div>
                         </div>

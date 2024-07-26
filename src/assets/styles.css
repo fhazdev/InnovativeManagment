@@ -2,7 +2,15 @@
     width: 50%;
     max-width: 100px;
     height: auto;
-  }
+}
+
+.schedule-now-card {
+  border-width: 0px;
+}
+
+.send-message-card {
+  border-width: 0px;
+}
 
 .services-card {
   border-width: 5px;
