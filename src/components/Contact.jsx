@@ -60,7 +60,7 @@ const Contact = () => {
                                 <Card.Img
                                     className="contact-card-img align-self-center mt-3"
                                     variant="top"
-                                    src="./src/images/email-8-svgrepo-com.svg"
+                                    src="/images/email-8-svgrepo-com.svg"
                                 />
                                 <Card.Body className="d-flex flex-column justify-content-center align-items-center text-center">
                                     <Card.Title>Email</Card.Title>
@@ -75,7 +75,7 @@ const Contact = () => {
                                 <Card.Img
                                     className="contact-card-img align-self-center mt-3"
                                     variant="top"
-                                    src="./src/images/phone-call-svgrepo-com.svg"
+                                    src="/images/phone-call-svgrepo-com.svg"
                                 />
                                 <Card.Body className="d-flex flex-column justify-content-center align-items-center text-center">
                                     <Card.Title>Phone</Card.Title>
