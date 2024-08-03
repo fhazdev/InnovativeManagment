@@ -1,4 +1,3 @@
-import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -22,7 +21,7 @@ const Contact = () => {
                                 />
                                 <Card.Body className="d-flex flex-column justify-content-center align-items-center text-center">
                                     <Card.Title>Email</Card.Title>
-                                    <Card.Text>Oso_Rey@gmail.com</Card.Text>
+                                    <Card.Text>innovative1management@gmail.com</Card.Text>
                                 </Card.Body>
                             </div>
                         </Card>
@@ -36,8 +35,8 @@ const Contact = () => {
                                     src="/images/phone-call-svgrepo-com.svg"
                                 />
                                 <Card.Body className="d-flex flex-column justify-content-center align-items-center text-center">
-                                    <Card.Title>Phone</Card.Title>
-                                    <Card.Text>520-555-5555</Card.Text>
+                                    <Card.Title>Phone/Text</Card.Title>
+                                    <Card.Text>520-456-5252</Card.Text>
                                 </Card.Body>
                             </div>
                         </Card>

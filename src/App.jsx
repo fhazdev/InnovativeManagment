@@ -8,7 +8,6 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Services from './components/Services';
 import Contact from './components/Contact';
-import About from './components/About';
 
 function App() {
   useEffect(() => {
@@ -27,7 +26,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
 

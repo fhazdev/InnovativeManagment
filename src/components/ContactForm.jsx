@@ -11,6 +11,7 @@ const ContactForm = () => {
     const [formData, setFormData] = React.useState({
         name: '',
         email: '',
+        phone: '',
         message: ''
     });
     const [result, setResult] = React.useState('');
@@ -74,6 +75,15 @@ const ContactForm = () => {
                                             required
                                         />
                                     </Form.Group>
+                                    <Form.Group className="mb-3" controlId="phone">
+                                        <Form.Label>Phone</Form.Label>
+                                        <Form.Control
+                                            type="tel"
+                                            name="phone"
+                                            value={formData.phone}
+                                            onChange={handleChange}
+                                        />
+                                    </Form.Group>
                                     <Form.Group className="mb-3" controlId="message">
                                         <Form.Label>Message</Form.Label>
                                         <Form.Control
@@ -97,30 +107,6 @@ const ContactForm = () => {
                     </Col>
                 </Row>
             </Container>
-            // <div className="container mt-5">
-            //     <h2 className="text-center">Have questions?  Send a message.</h2>
-            //     <div className="row mt-4 justify-content-center">
-            //         <div className="col-md-6">
-            //             <form>
-            //                 <div className="mb-3">
-            //                     <label htmlFor="name" className="form-label">Name</label>
-            //                     <input type="text" className="form-control" id="name" required />
-            //                 </div>
-            //                 <div className="mb-3">
-            //                     <label htmlFor="email" className="form-label">Email</label>
-            //                     <input type="email" className="form-control" id="email" required />
-            //                 </div>
-            //                 <div className="mb-3">
-            //                     <label htmlFor="message" className="form-label">Message</label>
-            //                     <textarea className="form-control" id="message" rows="5" required></textarea>
-            //                 </div>
-            //                 <div className="d-flex justify-content-center">
-            //                     <Button variant="primary" size="lg">Send Message</Button>
-            //                 </div>
-            //             </form>
-            //         </div>
-            //     </div>
-            // </div>
     );
 };
 
