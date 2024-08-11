@@ -1,7 +1,21 @@
+.home-background {
+  background-image: url('/images/homeBackground.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.home-button-row {
+  margin-top: 30rem;
+}
+
 .contact-card-img {
-    width: 50%;
-    max-width: 100px;
-    height: auto;
+  width: 50%;
+  max-width: 100px;
+  height: auto;
+}
+
+.home-card {
+  border-width: 0px;
 }
 
 .schedule-now-card {
